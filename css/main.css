@@ -279,6 +279,7 @@ section{
 }
 .team-img{
     position: relative;
+    
 }
 .team-icons{
     position: absolute;
@@ -299,6 +300,12 @@ section{
 .team-icons a:hover{
     background: var(--mount-meadow);
     color: #fff;
+}
+.team-img img{
+    position: relative;
+    width: 370px;
+    height: 370px;
+    background-size: cover;
 }
 .team-img:hover .team-icons{
     opacity: 1;
